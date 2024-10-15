@@ -58,12 +58,12 @@ $color1: #ff0000;
 
 
 // Fonts
-// @include font-face('Example', '../fonts/Example/Example-Bold', 700, normal, ttf);
-
-// Vars
+@include font-face('Manrope', '../fonts/Manrope/Manrope-Bold', 700, normal, ttf);
+@include font-face('Manrope', '../fonts/Manrope/Manrope-SemiBold', 600, normal, ttf);
+@include font-face('Manrope', '../fonts/Manrope/Manrope-Medium', 500, normal, ttf); 
 
 // Путь к спрайту для конкатенации
-$sprite: "../svg/dest/stack/sprite.svg#";
+$sprite: "../svg/dest/stack/spriteMulti.svg#";
 
 // Mixins
 @mixin btn {

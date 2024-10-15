@@ -1,8 +1,160 @@
 <footer class="footer">
-
+    <div class="container">
+        <div class="footer__row row">
+            <div class="footer__col footer__col--info">
+                <h3 class="footer__title">
+                    Информация
+                    о компании
+                </h3>
+                <div class="footer__info-bottom">
+                    <span class="footer__info-bottom-item">
+                        ООО «ГлавГеоЭкспертиза» © 2004–2023
+                    </span>
+                    <span class="footer__info-bottom-item">
+                        <a href="#">Обработка персональных данных</a> <a href="#">Публичная оферта</a>
+                    </span>
+                </div>
+            </div>
+            <div class="footer__col footer__col--menu">
+                <h3 class="footer__title">Меню сайта</h3>
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Преимущества</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Услуги</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Калькулятор</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">О компании</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Команда</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Фотогаллерея</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Вопрос-ответ</a>
+                    </li>
+                </ul>            
+            </div>
+            <div class="footer__col footer__col--contacts">
+                <h3 class="footer__title">
+                    Контактная информация
+                </h3>
+                <div class="footer__contacts">
+                    <a href="tel:+79998721504" class="footer__contacts-item">
+                        <div class="footer__contacts-item-icon">
+                            <svg>
+                                <use xlink:href='svg/dest/stack/spriteMono.svg#phone'></use>
+                            </svg>
+                        </div>
+                        +7 999 872-15-04
+                    </a>
+                    <a href="mailto:info@glavgeoexpertiza.ru" class="footer__contacts-item">
+                        <div class="footer__contacts-item-icon">
+                            <svg>
+                                <use xlink:href='svg/dest/stack/spriteMono.svg#mail'></use>
+                            </svg>
+                        </div>
+                        info@glavgeoexpertiza.ru
+                    </a>
+                    <div class="footer__contacts-item">
+                        <div class="footer__contacts-item-icon">
+                            <svg>
+                                <use xlink:href='svg/dest/stack/spriteMono.svg#watch'></use>
+                            </svg>
+                        </div>
+                        c 6.00 до 18.00 Понедельник-Пятница 
+                        <br/>
+                        c 8.00 до 18.00 Суббота-Воскресенье
+                    </div>
+                    <address class="footer__contacts-item">
+                        <div class="footer__contacts-item-icon footer__contacts-item-icon--home">
+                            <svg>
+                                <use xlink:href='svg/dest/stack/spriteMono.svg#home'></use>
+                            </svg>
+                        </div>
+                        Город <br/> ул. Центральная д. 5
+                    </address>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
 </div>
-
+<div class="modal-call modal">
+    <div class="modal-call__content modal__content">
+        <button class="modal__close">
+            <svg>
+                <use xlink:href='svg/dest/stack/spriteMono.svg#cross'></use>
+            </svg>
+        </button>
+        <div class="modal-call__row row">
+            <div class="modal-call__col modal-call__col--left">
+                <img class="img-fill" src="images/content/modal-img.webp" alt="">
+            </div>
+            <div class="modal-call__col modal-call__col--right">
+                <h2 class="modal__title">
+                    Рассчитаем стоимость работ
+                </h2>
+               
+                <form action="#" class="modal-call__form form">
+                    <div class="modal-call__form-inputs form__inputs">
+                        <input type="text" class="modal-call__form-input form__input input" required name="name"
+                            placeholder="Введите имя">
+                        <input type="tel" class="modal-call__form-input form__input input" required name="phobe"
+                            placeholder="Введите номер">
+                        <button class="form__modal-call-btn form__btn btn btn--red">
+                            Рассчитать
+                        </button>
+                        <div class="modal-call__form-checkbox form__checkbox checkbox">
+                            <input type="checkbox" id="checkbox1" name="politics" required>
+                            <label for="checkbox1">
+                                <div class="modal-call__checkbox-icon form__checkbox-icon checkbox__icon"></div>
+                                <span>
+                                    Нажимая на кнопку, я соглашаюсь на
+                                    <a href="#">
+                                        обработку персональных данных
+                                    </a>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal-thanks modal">
+    <div class="modal-call__content modal__content">
+        <button class="modal__close">
+            <svg>
+                <use xlink:href='svg/dest/stack/spriteMono.svg#cross'></use>
+            </svg>
+        </button>
+        <div class="modal-call__row row">
+            <div class="modal-call__col modal-call__col--left">
+                <img class="img-fill" src="images/content/modal-img.webp" alt="">
+            </div>
+            <div class="modal-call__col  modal-thanks__col--right modal-call__col--right">
+                <h2 class="modal__title">
+                    Спасибо! 
+                </h2>
+                <p class="modal-thanks__text">
+                    { Менеджер свяжется с вами в ближайшее время }
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mobile-menu">
+    <div class="mobile-menu__container"></div>
+</div>
 <script src="JS/bundle.js"></script>
 </body>
 

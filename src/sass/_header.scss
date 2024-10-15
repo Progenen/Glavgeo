@@ -1,0 +1,105 @@
+.header {
+    padding: 12px 0 25px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 120;
+    background-color: #fff;
+    &__container {
+        max-width: 1845px;
+        padding: 0 15px;
+    }
+
+    &__row {
+        align-items: center;
+    }
+
+    &__col {
+        
+        &--logo {
+            width: 9.659%;
+        }
+
+        &--menu {
+            width: 47.353%;
+        }
+
+        &--ui {
+            margin-left: 15px;
+            flex: 1 0;
+            display: flex;
+            justify-content: flex-end;
+            gap: 40px;
+        }
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        max-width: 147px;
+        width: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__menu {
+    }
+
+    &__menu-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 40px;
+    }
+
+    &__menu-item {
+    }
+
+    &__menu-link {
+        font-size: var(--text-size-lg);
+        font-weight: 700;
+    }
+
+    &__contact {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        &--mail {
+        }
+        &:hover .header__contact-icon{
+            background-color: var(--color-yellow);
+            svg {
+                fill: #fff;
+            }
+        }
+    }
+
+    &__contact-icon {
+        min-width: 48px;
+        min-height: 48px;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--color-gray-3);
+        border-radius: 4px;
+        transition: .3s;
+        svg {
+            width: 37.5%;
+            display: block;
+            transition: .3s;
+        }
+    }
+
+    &__btn {
+    }
+
+    &__burger {
+        display: none;
+    }
+}

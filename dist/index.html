@@ -13,15 +13,1048 @@
     <div class="wrapper">
         <div class="content">
             <header class="header">
+                <div class="header__container container">
+                    <div class="header__row row">
+                        <div class="header__col header__col--logo">
+                            <a href="#" class="header__logo">
+                                <img class="img-fill" src="images/logo.webp" alt="">
+                            </a>
+                        </div>
+                        <div class="header__col header__col--menu">
+                            <nav class="header__menu">
+                                <ul class='header__menu-list'>
+                                    <li class='header__menu-item'><a href='#' class='header__menu-link'>Преимущества</a>
+                                    </li>
+                                    <li class='header__menu-item'><a href='#' class='header__menu-link'>Услуги</a></li>
+                                    <li class='header__menu-item'><a href='#' class='header__menu-link'>Калькулятор</a>
+                                    </li>
+                                    <li class='header__menu-item'><a href='#' class='header__menu-link'>О компании</a>
+                                    </li>
+                                    <li class='header__menu-item'><a href='#' class='header__menu-link'>Вопрос-ответ</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="header__col header__col--ui">
+                            <a href="mailto:info@glavgeoexpertiza.ru" class="header__contact header__contact--mail">
+                                <div class="header__contact-icon">
+                                    <svg>
+                                        <use xlink:href='svg/dest/stack/spriteMono.svg#mail'></use>
+                                    </svg>
+                                </div>
+                                info@glavgeoexpertiza.ru
+                            </a>
+                            <a href="tel:+79998721504" class="header__contact header__contact--mail">
+                                <div class="header__contact-icon">
+                                    <svg>
+                                        <use xlink:href='svg/dest/stack/spriteMono.svg#phone'></use>
+                                    </svg>
+                                </div>
+                                +7 999 872-15-04
+                            </a>
+                            <button class="header__btn btn" data-modal-trigger-call>
+                                Консультация
+                            </button>
+                            <div class="header__burger btn">
+                                <div class="header__burger-inner">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </header>
 <main>
+    <section class="offer" style="background-image: url('images/content/offer-bg.webp');"
+        data-md-bg="images/content/offer-bg-md.webp" data-sm-bg="images/content/offer-bg-sm.webp">
+        <div class="container">
+            <div class="offer__content">
+                <p class="offer__posttitle">
+                    Для строительств в городе Сочи
+                </p>
+                <h1 class="offer__title">
+                    За 7 дней выполним геологические изыскания
+                </h1>
+                <form action="#" class="offer__form form">
+                    <div class="offer__form-title form__title">
+                        Рассчитаем стоимость работ
+                    </div>
+                    <div class="offer__form-inputs form__inputs">
+                        <input type="text" class="offer__form-input form__input input" required name="name"
+                            placeholder="Введите имя">
+                        <input type="tel" class="offer__form-input form__input input" required name="phobe"
+                            placeholder="Введите номер">
+                        <button class="form__offer-btn form__btn btn btn--red">
+                            Рассчитать
+                        </button>
+                        <div class="offer__form-checkbox form__checkbox checkbox">
+                            <input type="checkbox" id="checkbox1" name="politics" required>
+                            <label for="checkbox1">
+                                <div class="offer__checkbox-icon form__checkbox-icon checkbox__icon"></div>
+                                <span>
+                                    Нажимая на кнопку, я соглашаюсь на
+                                    <a href="#">
+                                        обработку персональных данных
+                                    </a>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="dominates">
+        <div class="container">
+            <div class="dominates__items">
+                <div class="dominates__item">
+                    <h3 class="dominates__item-title">
+                        Аккредитованная лаборатория
+                    </h3>
+                    <p class="dominates__item-descr">
+                        Лаборатория оборудована всем необходимым оборудованием
+                    </p>
+                </div>
+                <div class="dominates__item">
+                    <h3 class="dominates__item-title">
+                        Собственная <br />
+                        техника
+                    </h3>
+                    <p class="dominates__item-descr">
+                        Имеем несколько парков буровой техники для быстрого и выезда на объекты
+                    </p>
+                </div>
+                <div class="dominates__item">
+                    <h3 class="dominates__item-title">
+                        20 лет <br />
+                        на рынке
+                    </h3>
+                    <p class="dominates__item-descr">
+                        Компания начала работу в 2004 году и продолжает оказывать услуги по изысканиям
+                    </p>
+                </div>
+                <div class="dominates__item">
+                    <h3 class="dominates__item-title">
+                        Низкие цены <br />
+                        на рынке
+                    </h3>
+                    <p class="dominates__item-descr">
+                        За счёт собственного парка и лаборатории у нас самые низкие цены на рынке
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="services__title main-title">
+                <h2>
+                    Выберите нужную услугу
+                </h2>
+                <span>
+                    { Стоимость услуги зависит от объёма и вида работ }
+                </span>
+            </div>
+            <div class="services__items">
+                <div class="services__item">
+                    <div class="services__item-left">
+                        <h3 class="services__item-title">
+                            Инженерно геологические изыскания
+                        </h3>
+                        <ul class="services__item-list">
+                            <li>Составление технического задания</li>
+                            <li>Составление плана работ</li>
+                            <li>Выезд на объект заказчика</li>
+                            <li>Бурение скважин</li>
+                            <li>Проведение изысканий</li>
+                            <li>Проведение лабораторных исследований</li>
+                            <li>Составление отчёта</li>
+                            <li>Отправка отчёта на почту</li>
+                            <li>Гарантия прохождения экспертизы</li>
+                        </ul>
+                        <span class="services__item-price">
+                            от 45,000 ₽
+                        </span>
+                        <button class="services__item-btn btn btn--red btn--sm">
+                            Рассчитать стоимость
+                        </button>
+                    </div>
+                    <div class="services__item-right">
+                        <span class="services__item-count"></span>
+                        <img class="services__item-img" src="images/content/services/services-item-img1.webp" alt="">
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__item-left">
+                        <h3 class="services__item-title">
+                            Инженерно экологические изыскания
+                        </h3>
+                        <ul class="services__item-list">
+                            <li>Составление технического задания</li>
+                            <li>Составление плана работ</li>
+                            <li>Бурение скважин</li>
+                            <li>Проведение изысканий</li>
+                            <li>Проведение лабораторных исследований</li>
+                            <li>Составление отчёта</li>
+                        </ul>
+                        <span class="services__item-price">
+                            от 60,000 ₽ за 1 Га
+                        </span>
+                        <button class="services__item-btn btn btn--red btn--sm">
+                            Рассчитать стоимость
+                        </button>
+                    </div>
+                    <div class="services__item-right">
+                        <span class="services__item-count"></span>
+                        <img class="services__item-img" src="images/content/services/services-item-img2.webp" alt="">
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__item-left">
+                        <h3 class="services__item-title">
+                            Гидрометеорологические изыскания
+                        </h3>
+                        <ul class="services__item-list">
+                            <li>Составление технического задания</li>
+                            <li>Составление плана работ</li>
+                            <li>Проведение изысканий</li>
+                            <li>Проведение лабораторных исследований</li>
+                            <li>Составление отчёта</li>
+                        </ul>
+                        <span class="services__item-price">
+                            от 120,000 ₽
+                        </span>
+                        <button class="services__item-btn btn btn--red btn--sm">
+                            Рассчитать стоимость
+                        </button>
+                    </div>
+                    <div class="services__item-right">
+                        <span class="services__item-count"></span>
+                        <img class="services__item-img" src="images/content/services/services-item-img3.webp" alt="">
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__item-left">
+                        <h3 class="services__item-title">
+                            Грунтовая испытательная лаборатория
+                        </h3>
+                        <ul class="services__item-list">
+                            <li>Составление технического задания</li>
+                            <li>Составление плана работ</li>
+                            <li>Проведение изысканий</li>
+                            <li>Проведение лабораторных исследований</li>
+                            <li>Составление отчёта</li>
+                        </ul>
+                        <span class="services__item-price">
+                            от 40,000 ₽
+                        </span>
+                        <button class="services__item-btn btn btn--red btn--sm">
+                            Рассчитать стоимость
+                        </button>
+                    </div>
+                    <div class="services__item-right">
+                        <span class="services__item-count"></span>
+                        <img class="services__item-img" src="images/content/services/services-item-img4.webp" alt="">
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__item-left">
+                        <h3 class="services__item-title">
+                            Определение коэффициента
+                            уплотнения грунта
+                        </h3>
+                        <ul class="services__item-list">
+                            <li>Составление плана работ</li>
+                            <li>Составление технического задания</li>
+                            <li>Бурение скважин</li>
+                            <li>Взятие проб грунта</li>
+                            <li>Проведение лабораторных исследований</li>
+                            <li>Составление отчёта</li>
+                            <li>Отправка отчёта на почту</li>
+                            <li>Гарантия прохождения экспертизы</li>
+                        </ul>
+                        <span class="services__item-price">
+                            от 45,000 ₽
+                        </span>
+                        <button class="services__item-btn btn btn--red btn--sm">
+                            Рассчитать стоимость
+                        </button>
+                    </div>
+                    <div class="services__item-right">
+                        <span class="services__item-count"></span>
+                        <img class="services__item-img" src="images/content/services/services-item-img5.webp" alt="">
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__item-left">
+                        <h3 class="services__item-title">
+                            Разработка М ООС
+                        </h3>
+                        <ul class="services__item-list">
+                            <li>Ситуационный план расположения объекта</li>
+                            <li>Карта фактического материала с чертежами котлована, точками отбора проб</li>
+                            <li>Результаты определения оптимальной влажности и плотности</li>
+                            <li>Расчётные коэффициенты уплотнения грунтов основания</li>
+                            <li>Акт проверки качества грунтов основания в открытом котловане</li>
+                        </ul>
+                        <span class="services__item-price">
+                            от 40,000 ₽
+                        </span>
+                        <button class="services__item-btn btn btn--red btn--sm">
+                            Рассчитать стоимость
+                        </button>
+                    </div>
+                    <div class="services__item-right">
+                        <span class="services__item-count"></span>
+                        <img class="services__item-img" src="images/content/services/services-item-img6.webp" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="about__row row">
+                <div class="about__col about__col--left">
+                    <img class="about__img about__img--lg" src="images/content/about/about-img.webp" alt="">
+                    <img class="about__img about__img--md" src="images/content/about/about-img-md.webp" alt="">
+                    <img class="about__img about__img--sm" src="images/content/about/about-img-sm.webp" alt="">
+                </div>
+                <div class="about__col about__col--right">
+                    <div class="about__title main-title">
+                        <span>{ Мы работаем более 10 лет }</span>
+                        <h2>О компании</h2>
+                    </div>
+                    <p class="about__descr">
+                        Наша компания оказывает полный комплекс услуг в области геологических и экологических изысканий.
+                        Благодаря им клиенты принимают оптимальные решения для проектирования и дальнейшего
+                        строительства и получают необходимые разрешения.
+                    </p>
+                    <div class="about__info">
+                        <p>
+                            ООО «ГлавГеоЭкспертиза» имеет
+                            все лицензии и допуски, которые требуются для работы в этой сфере. Изыскания проводятся
+                            как для жилых домов и комплексов, так и для производственных площадок и промышленных
+                            объектов.
+                        </p>
+                        <p>
+                            Профессиональные сотрудники с опытом, большой парк техники и оборудования позволяют успешно
+                            справляться с работой, независимо от климатических или погодных условий.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team">
+        <div class="container">
+            <div class="team__top row main-title">
+                <div class="team__title ">
+                    <h2>Команда</h2>
+                </div>
+                <div class="team__slider-nav slider-nav">
+                    <button
+                        class="team__slider-nav-arrow team__slider-nav-arrow--prev slider-nav__arrow slider-nav__arrow--prev">
+                        <svg>
+                            <use xlink:href='svg/dest/stack/spriteMono.svg#arrowSlider'></use>
+                        </svg>
+                    </button>
+                    <button
+                        class="team__slider-nav-arrow team__slider-nav-arrow--next slider-nav__arrow slider-nav__arrow--next">
+                        <svg>
+                            <use xlink:href='svg/dest/stack/spriteMono.svg#arrowSlider'></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="team__slider slider">
+                    <div class="team__slider-wrapper swiper-wrapper">
+                        <div class="team__slider-item swiper-slide">
+                            <div class="team__slider-item-inner">
+                                <img class="team__slider-item-img" src="images/content/team/team-img1.webp" alt="">
+                                <h3 class="team__slider-item-title">
+                                    Инженер-эколог
+                                </h3>
+                                <p class="team__slider-item-name">
+                                    Ольга Заболотина
+                                </p>
+                                <span class="team__slider-item-skill">
+                                    { Стаж 12 лет }
+                                </span>
+                            </div>
+                        </div>
+                        <div class="team__slider-item swiper-slide">
+                            <div class="team__slider-item-inner">
+                                <img class="team__slider-item-img" src="images/content/team/team-img2.webp" alt="">
+                                <h3 class="team__slider-item-title">
+                                    Техник геодезист
+                                </h3>
+                                <p class="team__slider-item-name">
+                                    Михаил Сытник
+                                </p>
+                                <span class="team__slider-item-skill">
+                                    { Стаж 20 лет }
+                                </span>
+                            </div>
+                        </div>
+                        <div class="team__slider-item swiper-slide">
+                            <div class="team__slider-item-inner">
+                                <img class="team__slider-item-img" src="images/content/team/team-img3.webp" alt="">
+                                <h3 class="team__slider-item-title">
+                                    Начальник инженерно-геодезического отдела
+                                </h3>
+                                <p class="team__slider-item-name">
+                                    Артур Заводин
+                                </p>
+                                <span class="team__slider-item-skill">
+                                    { Стаж 18 лет }
+                                </span>
+                            </div>
+                        </div>
+                        <div class="team__slider-item swiper-slide">
+                            <div class="team__slider-item-inner">
+                                <img class="team__slider-item-img" src="images/content/team/team-img1.webp" alt="">
+                                <h3 class="team__slider-item-title">
+                                    Инженер-эколог
+                                </h3>
+                                <p class="team__slider-item-name">
+                                    Ольга Заболотина
+                                </p>
+                                <span class="team__slider-item-skill">
+                                    { Стаж 12 лет }
+                                </span>
+                            </div>
+                        </div>
+                        <div class="team__slider-item swiper-slide">
+                            <div class="team__slider-item-inner">
+                                <img class="team__slider-item-img" src="images/content/team/team-img1.webp" alt="">
+                                <h3 class="team__slider-item-title">
+                                    Инженер-эколог
+                                </h3>
+                                <p class="team__slider-item-name">
+                                    Ольга Заболотина
+                                </p>
+                                <span class="team__slider-item-skill">
+                                    { Стаж 12 лет }
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team__slider-scrollbar slider__scrollbar swiper-scrollbar"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery__top main-title row">
+                <h2>
+                    Фотоотчеты <br />
+                    с объектов работ
+                </h2>
+
+                <div class="gallery__slider-nav slider-nav">
+                    <button
+                        class="gallery__slider-nav-arrow gallery__slider-nav-arrow--prev slider-nav__arrow slider-nav__arrow--prev">
+                        <svg>
+                            <use xlink:href='svg/dest/stack/spriteMono.svg#arrowSlider'></use>
+                        </svg>
+                    </button>
+                    <button
+                        class="gallery__slider-nav-arrow gallery__slider-nav-arrow--next slider-nav__arrow slider-nav__arrow--next">
+                        <svg>
+                            <use xlink:href='svg/dest/stack/spriteMono.svg#arrowSlider'></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="gallery__slider slider">
+                    <div class="swiper-wrapper">
+                        <div class="gallery__slider-item swiper-slide">
+                            <div class="gallery__slider-item-inner">
+                                <img src="images/content/gallery/gallery-img1.webp" alt=""
+                                    class="gallery__slider-item-img">
+                                <div class="gallery__slider-item-text">
+                                    <h3 class="gallery__slider-item-title">
+                                        г. Домодедово, ул. Огнеупорный завод
+                                    </h3>
+                                    <span class="gallery__slider-item-data">
+                                        { 31.10.23 }
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery__slider-item swiper-slide">
+                            <div class="gallery__slider-item-inner">
+                                <img src="images/content/gallery/gallery-img2.webp" alt=""
+                                    class="gallery__slider-item-img">
+                            </div>
+                        </div>
+                        <div class="gallery__slider-item swiper-slide">
+                            <div class="gallery__slider-item-inner">
+                                <img src="images/content/gallery/gallery-img3.webp" alt=""
+                                    class="gallery__slider-item-img">
+                            </div>
+                        </div>
+                        <div class="gallery__slider-item swiper-slide">
+                            <div class="gallery__slider-item-inner">
+                                <img src="images/content/gallery/gallery-img4.webp" alt=""
+                                    class="gallery__slider-item-img">
+                            </div>
+                        </div>
+                        <div class="gallery__slider-item swiper-slide">
+                            <div class="gallery__slider-item-inner">
+                                <img src="images/content/gallery/gallery-img5.webp" alt=""
+                                    class="gallery__slider-item-img">
+                                <div class="gallery__slider-item-text">
+                                    <h3 class="gallery__slider-item-title">
+                                        г. Домодедово, ул. Огнеупорный завод
+                                    </h3>
+                                    <span class="gallery__slider-item-data">
+                                        { 31.10.23 }
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery__slider-item swiper-slide">
+                            <div class="gallery__slider-item-inner">
+                                <img src="images/content/gallery/gallery-img6.webp" alt=""
+                                    class="gallery__slider-item-img">
+                            </div>
+                        </div>
+                        <div class="gallery__slider-item swiper-slide">
+                            <div class="gallery__slider-item-inner">
+                                <img src="images/content/gallery/gallery-img7.webp" alt=""
+                                    class="gallery__slider-item-img">
+                            </div>
+                        </div>
+                        <div class="gallery__slider-item swiper-slide">
+                            <div class="gallery__slider-item-inner">
+                                <img src="images/content/gallery/gallery-img8.webp" alt=""
+                                    class="gallery__slider-item-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery__slider-scrollbar slider__scrollbar swiper-scrollbar"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="questions">
+        <div class="container">
+            <div class="questions__title main-title row">
+                <h2>
+                    Частые вопросы
+                </h2>
+                <span>
+                    { Мы собрали самые частые вопросы и дали на них ответ }
+                </span>
+            </div>
+            <div class="row">
+                <div class="questions__tabs" data-tab-parent>
+                    <div class="questions__tab">
+                        <div class="questions__tab-header" data-tab-title>
+                            <span class="questions__tab-counter"></span>
+                            <h3 class="questions__tab-title">
+                                Вы работаете по безналу?
+                            </h3>
+                            <div class="questions__tab-icon">
+                                <svg>
+                                    <use xlink:href='svg/dest/stack/spriteMono.svg#plus'></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="questions__tab-body" data-tab-content>
+                            <p>
+                                Да, работаем. Оперативно выставим счёт для оплаты по безналичному расчёту и предоставим
+                                закрывающие документы для вашей бухгалтерии (акт, накладная и др.).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="questions__tab">
+                        <div class="questions__tab-header" data-tab-title>
+                            <span class="questions__tab-counter"></span>
+                            <h3 class="questions__tab-title">
+                                Нужно ли приезжать в офис для заключения Договора?
+                            </h3>
+                            <div class="questions__tab-icon">
+                                <svg>
+                                    <use xlink:href='svg/dest/stack/spriteMono.svg#plus'></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="questions__tab-body" data-tab-content>
+                            <p>
+                                Да, работаем. Оперативно выставим счёт для оплаты по безналичному расчёту и предоставим
+                                закрывающие документы для вашей бухгалтерии (акт, накладная и др.).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="questions__tab">
+                        <div class="questions__tab-header" data-tab-title>
+                            <span class="questions__tab-counter"></span>
+                            <h3 class="questions__tab-title">
+                                Нужно ли приезжать в офис за отчётом?
+                            </h3>
+                            <div class="questions__tab-icon">
+                                <svg>
+                                    <use xlink:href='svg/dest/stack/spriteMono.svg#plus'></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="questions__tab-body" data-tab-content>
+                            <p>
+                                Да, работаем. Оперативно выставим счёт для оплаты по безналичному расчёту и предоставим
+                                закрывающие документы для вашей бухгалтерии (акт, накладная и др.).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="questions__tab">
+                        <div class="questions__tab-header" data-tab-title>
+                            <span class="questions__tab-counter"></span>
+                            <h3 class="questions__tab-title">
+                                Какой документ получаем в итоге?
+                            </h3>
+                            <div class="questions__tab-icon">
+                                <svg>
+                                    <use xlink:href='svg/dest/stack/spriteMono.svg#plus'></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="questions__tab-body" data-tab-content>
+                            <p>
+                                Да, работаем. Оперативно выставим счёт для оплаты по безналичному расчёту и предоставим
+                                закрывающие документы для вашей бухгалтерии (акт, накладная и др.).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="questions__tab">
+                        <div class="questions__tab-header" data-tab-title>
+                            <span class="questions__tab-counter"></span>
+                            <h3 class="questions__tab-title">
+                                Работаете ли вы в выходные?
+                            </h3>
+                            <div class="questions__tab-icon">
+                                <svg>
+                                    <use xlink:href='svg/dest/stack/spriteMono.svg#plus'></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="questions__tab-body" data-tab-content>
+                            <p>
+                                Да, работаем. Оперативно выставим счёт для оплаты по безналичному расчёту и предоставим
+                                закрывающие документы для вашей бухгалтерии (акт, накладная и др.).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <div class="reviews__top main-title row">
+                <div class="reviews__title row">
+                    <h2>
+                        Отзывы от наших клиентов
+                    </h2>
+                    <span>{ Нашу компанию рекомендуют }</span>
+                </div>
+                <div class="reviews__slider-nav slider-nav">
+                    <button
+                        class="reviews__slider-nav-arrow reviews__slider-nav-arrow--prev slider-nav__arrow slider-nav__arrow--prev">
+                        <svg>
+                            <use xlink:href='svg/dest/stack/spriteMono.svg#arrowSlider'></use>
+                        </svg>
+                    </button>
+                    <button
+                        class="reviews__slider-nav-arrow reviews__slider-nav-arrow--next slider-nav__arrow slider-nav__arrow--next">
+                        <svg>
+                            <use xlink:href='svg/dest/stack/spriteMono.svg#arrowSlider'></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="reviews__slider slider">
+                    <div class="swiper-wrapper">
+                        <div class="reviews__slider-item swiper-slide">
+                            <div class="reviews__slider-item-inner">
+                                <div class="reviews__slider-item-quote">
+                                    <svg>
+                                        <use xlink:href='svg/dest/stack/spriteMono.svg#quote'></use>
+                                    </svg>
+                                </div>
+                                <div class="reviews__slider-item-rating">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="154" height="31" viewBox="0 0 154 31"
+                                        fill="none">
+                                        <path
+                                            d="M14.5489 2.92705C14.8483 2.00574 16.1517 2.00574 16.4511 2.92705L18.7555 10.0193C18.8893 10.4313 19.2733 10.7102 19.7065 10.7102H27.1637C28.1324 10.7102 28.5352 11.9499 27.7515 12.5193L21.7185 16.9025C21.368 17.1571 21.2213 17.6085 21.3552 18.0205L23.6596 25.1127C23.959 26.034 22.9045 26.8001 22.1208 26.2307L16.0878 21.8475C15.7373 21.5929 15.2627 21.5929 14.9122 21.8475L8.87923 26.2307C8.09551 26.8001 7.04103 26.034 7.34039 25.1127L9.64478 18.0205C9.77866 17.6085 9.632 17.1571 9.28151 16.9025L3.24852 12.5193C2.46481 11.9499 2.86758 10.7102 3.83631 10.7102H11.2935C11.7267 10.7102 12.1107 10.4313 12.2445 10.0193L14.5489 2.92705Z" />
+                                        <path
+                                            d="M45.5489 2.92705C45.8483 2.00574 47.1517 2.00574 47.4511 2.92705L49.7555 10.0193C49.8893 10.4313 50.2733 10.7102 50.7065 10.7102H58.1637C59.1324 10.7102 59.5352 11.9499 58.7515 12.5193L52.7185 16.9025C52.368 17.1571 52.2213 17.6085 52.3552 18.0205L54.6596 25.1127C54.959 26.034 53.9045 26.8001 53.1208 26.2307L47.0878 21.8475C46.7373 21.5929 46.2627 21.5929 45.9122 21.8475L39.8792 26.2307C39.0955 26.8001 38.041 26.034 38.3404 25.1127L40.6448 18.0205C40.7787 17.6085 40.632 17.1571 40.2815 16.9025L34.2485 12.5193C33.4648 11.9499 33.8676 10.7102 34.8363 10.7102H42.2935C42.7267 10.7102 43.1107 10.4313 43.2445 10.0193L45.5489 2.92705Z" />
+                                        <path
+                                            d="M76.5489 2.92705C76.8483 2.00574 78.1517 2.00574 78.4511 2.92705L80.7555 10.0193C80.8893 10.4313 81.2733 10.7102 81.7065 10.7102H89.1637C90.1324 10.7102 90.5352 11.9499 89.7515 12.5193L83.7185 16.9025C83.368 17.1571 83.2213 17.6085 83.3552 18.0205L85.6596 25.1127C85.959 26.034 84.9045 26.8001 84.1208 26.2307L78.0878 21.8475C77.7373 21.5929 77.2627 21.5929 76.9122 21.8475L70.8792 26.2307C70.0955 26.8001 69.041 26.034 69.3404 25.1127L71.6448 18.0205C71.7787 17.6085 71.632 17.1571 71.2815 16.9025L65.2485 12.5193C64.4648 11.9499 64.8676 10.7102 65.8363 10.7102H73.2935C73.7267 10.7102 74.1107 10.4313 74.2445 10.0193L76.5489 2.92705Z" />
+                                        <path
+                                            d="M107.549 2.92705C107.848 2.00574 109.152 2.00574 109.451 2.92705L111.755 10.0193C111.889 10.4313 112.273 10.7102 112.707 10.7102H120.164C121.132 10.7102 121.535 11.9499 120.751 12.5193L114.718 16.9025C114.368 17.1571 114.221 17.6085 114.355 18.0205L116.66 25.1127C116.959 26.034 115.904 26.8001 115.121 26.2307L109.088 21.8475C108.737 21.5929 108.263 21.5929 107.912 21.8475L101.879 26.2307C101.096 26.8001 100.041 26.034 100.34 25.1127L102.645 18.0205C102.779 17.6085 102.632 17.1571 102.282 16.9025L96.2485 12.5193C95.4648 11.9499 95.8676 10.7102 96.8363 10.7102H104.293C104.727 10.7102 105.111 10.4313 105.245 10.0193L107.549 2.92705Z" />
+                                        <path
+                                            d="M137.549 2.92705C137.848 2.00574 139.152 2.00574 139.451 2.92705L141.755 10.0193C141.889 10.4313 142.273 10.7102 142.707 10.7102H150.164C151.132 10.7102 151.535 11.9499 150.751 12.5193L144.718 16.9025C144.368 17.1571 144.221 17.6085 144.355 18.0205L146.66 25.1127C146.959 26.034 145.904 26.8001 145.121 26.2307L139.088 21.8475C138.737 21.5929 138.263 21.5929 137.912 21.8475L131.879 26.2307C131.096 26.8001 130.041 26.034 130.34 25.1127L132.645 18.0205C132.779 17.6085 132.632 17.1571 132.282 16.9025L126.249 12.5193C125.465 11.9499 125.868 10.7102 126.836 10.7102H134.293C134.727 10.7102 135.111 10.4313 135.245 10.0193L137.549 2.92705Z" />
+                                    </svg>
+                                </div>
+                                <p class="reviews__slider-item-descr">
+                                    Хорошее впечатление от сотрудничества с компанией. Отчёты по изысканиям для нашего
+                                    магазина получили качественные. Рекомендуем.
+                                </p>
+                                <span class="reviews__slider-item-name">{ Владислав Макаров }</span>
+                            </div>
+                        </div>
+                        <div class="reviews__slider-item reviews__slider-item--alt swiper-slide">
+                            <div class="reviews__slider-item-inner">
+                                <div class="reviews__slider-item-quote">
+                                    <svg>
+                                        <use xlink:href='svg/dest/stack/spriteMono.svg#quote'></use>
+                                    </svg>
+                                </div>
+                                <div class="reviews__slider-item-rating">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="154" height="31" viewBox="0 0 154 31"
+                                        fill="none">
+                                        <path
+                                            d="M14.5489 2.92705C14.8483 2.00574 16.1517 2.00574 16.4511 2.92705L18.7555 10.0193C18.8893 10.4313 19.2733 10.7102 19.7065 10.7102H27.1637C28.1324 10.7102 28.5352 11.9499 27.7515 12.5193L21.7185 16.9025C21.368 17.1571 21.2213 17.6085 21.3552 18.0205L23.6596 25.1127C23.959 26.034 22.9045 26.8001 22.1208 26.2307L16.0878 21.8475C15.7373 21.5929 15.2627 21.5929 14.9122 21.8475L8.87923 26.2307C8.09551 26.8001 7.04103 26.034 7.34039 25.1127L9.64478 18.0205C9.77866 17.6085 9.632 17.1571 9.28151 16.9025L3.24852 12.5193C2.46481 11.9499 2.86758 10.7102 3.83631 10.7102H11.2935C11.7267 10.7102 12.1107 10.4313 12.2445 10.0193L14.5489 2.92705Z" />
+                                        <path
+                                            d="M45.5489 2.92705C45.8483 2.00574 47.1517 2.00574 47.4511 2.92705L49.7555 10.0193C49.8893 10.4313 50.2733 10.7102 50.7065 10.7102H58.1637C59.1324 10.7102 59.5352 11.9499 58.7515 12.5193L52.7185 16.9025C52.368 17.1571 52.2213 17.6085 52.3552 18.0205L54.6596 25.1127C54.959 26.034 53.9045 26.8001 53.1208 26.2307L47.0878 21.8475C46.7373 21.5929 46.2627 21.5929 45.9122 21.8475L39.8792 26.2307C39.0955 26.8001 38.041 26.034 38.3404 25.1127L40.6448 18.0205C40.7787 17.6085 40.632 17.1571 40.2815 16.9025L34.2485 12.5193C33.4648 11.9499 33.8676 10.7102 34.8363 10.7102H42.2935C42.7267 10.7102 43.1107 10.4313 43.2445 10.0193L45.5489 2.92705Z" />
+                                        <path
+                                            d="M76.5489 2.92705C76.8483 2.00574 78.1517 2.00574 78.4511 2.92705L80.7555 10.0193C80.8893 10.4313 81.2733 10.7102 81.7065 10.7102H89.1637C90.1324 10.7102 90.5352 11.9499 89.7515 12.5193L83.7185 16.9025C83.368 17.1571 83.2213 17.6085 83.3552 18.0205L85.6596 25.1127C85.959 26.034 84.9045 26.8001 84.1208 26.2307L78.0878 21.8475C77.7373 21.5929 77.2627 21.5929 76.9122 21.8475L70.8792 26.2307C70.0955 26.8001 69.041 26.034 69.3404 25.1127L71.6448 18.0205C71.7787 17.6085 71.632 17.1571 71.2815 16.9025L65.2485 12.5193C64.4648 11.9499 64.8676 10.7102 65.8363 10.7102H73.2935C73.7267 10.7102 74.1107 10.4313 74.2445 10.0193L76.5489 2.92705Z" />
+                                        <path
+                                            d="M107.549 2.92705C107.848 2.00574 109.152 2.00574 109.451 2.92705L111.755 10.0193C111.889 10.4313 112.273 10.7102 112.707 10.7102H120.164C121.132 10.7102 121.535 11.9499 120.751 12.5193L114.718 16.9025C114.368 17.1571 114.221 17.6085 114.355 18.0205L116.66 25.1127C116.959 26.034 115.904 26.8001 115.121 26.2307L109.088 21.8475C108.737 21.5929 108.263 21.5929 107.912 21.8475L101.879 26.2307C101.096 26.8001 100.041 26.034 100.34 25.1127L102.645 18.0205C102.779 17.6085 102.632 17.1571 102.282 16.9025L96.2485 12.5193C95.4648 11.9499 95.8676 10.7102 96.8363 10.7102H104.293C104.727 10.7102 105.111 10.4313 105.245 10.0193L107.549 2.92705Z" />
+                                        <path
+                                            d="M137.549 2.92705C137.848 2.00574 139.152 2.00574 139.451 2.92705L141.755 10.0193C141.889 10.4313 142.273 10.7102 142.707 10.7102H150.164C151.132 10.7102 151.535 11.9499 150.751 12.5193L144.718 16.9025C144.368 17.1571 144.221 17.6085 144.355 18.0205L146.66 25.1127C146.959 26.034 145.904 26.8001 145.121 26.2307L139.088 21.8475C138.737 21.5929 138.263 21.5929 137.912 21.8475L131.879 26.2307C131.096 26.8001 130.041 26.034 130.34 25.1127L132.645 18.0205C132.779 17.6085 132.632 17.1571 132.282 16.9025L126.249 12.5193C125.465 11.9499 125.868 10.7102 126.836 10.7102H134.293C134.727 10.7102 135.111 10.4313 135.245 10.0193L137.549 2.92705Z" />
+                                    </svg>
+                                </div>
+                                <p class="reviews__slider-item-descr">
+                                    Хочу выразить благодарность компании за профессиональный подход при выполнении
+                                    геологических работ для нашего проекта. Будем рекомендовать и сами, при случае,
+                                    снова обратимся!
+                                </p>
+                                <span class="reviews__slider-item-name">
+                                    { Маргарита Иванова }
+                                </span>
+                            </div>
+                        </div>
+                        <div class="reviews__slider-item swiper-slide">
+                            <div class="reviews__slider-item-inner">
+                                <div class="reviews__slider-item-quote">
+                                    <svg>
+                                        <use xlink:href='svg/dest/stack/spriteMono.svg#quote'></use>
+                                    </svg>
+                                </div>
+                                <div class="reviews__slider-item-rating">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="154" height="31" viewBox="0 0 154 31"
+                                        fill="none">
+                                        <path
+                                            d="M14.5489 2.92705C14.8483 2.00574 16.1517 2.00574 16.4511 2.92705L18.7555 10.0193C18.8893 10.4313 19.2733 10.7102 19.7065 10.7102H27.1637C28.1324 10.7102 28.5352 11.9499 27.7515 12.5193L21.7185 16.9025C21.368 17.1571 21.2213 17.6085 21.3552 18.0205L23.6596 25.1127C23.959 26.034 22.9045 26.8001 22.1208 26.2307L16.0878 21.8475C15.7373 21.5929 15.2627 21.5929 14.9122 21.8475L8.87923 26.2307C8.09551 26.8001 7.04103 26.034 7.34039 25.1127L9.64478 18.0205C9.77866 17.6085 9.632 17.1571 9.28151 16.9025L3.24852 12.5193C2.46481 11.9499 2.86758 10.7102 3.83631 10.7102H11.2935C11.7267 10.7102 12.1107 10.4313 12.2445 10.0193L14.5489 2.92705Z" />
+                                        <path
+                                            d="M45.5489 2.92705C45.8483 2.00574 47.1517 2.00574 47.4511 2.92705L49.7555 10.0193C49.8893 10.4313 50.2733 10.7102 50.7065 10.7102H58.1637C59.1324 10.7102 59.5352 11.9499 58.7515 12.5193L52.7185 16.9025C52.368 17.1571 52.2213 17.6085 52.3552 18.0205L54.6596 25.1127C54.959 26.034 53.9045 26.8001 53.1208 26.2307L47.0878 21.8475C46.7373 21.5929 46.2627 21.5929 45.9122 21.8475L39.8792 26.2307C39.0955 26.8001 38.041 26.034 38.3404 25.1127L40.6448 18.0205C40.7787 17.6085 40.632 17.1571 40.2815 16.9025L34.2485 12.5193C33.4648 11.9499 33.8676 10.7102 34.8363 10.7102H42.2935C42.7267 10.7102 43.1107 10.4313 43.2445 10.0193L45.5489 2.92705Z" />
+                                        <path
+                                            d="M76.5489 2.92705C76.8483 2.00574 78.1517 2.00574 78.4511 2.92705L80.7555 10.0193C80.8893 10.4313 81.2733 10.7102 81.7065 10.7102H89.1637C90.1324 10.7102 90.5352 11.9499 89.7515 12.5193L83.7185 16.9025C83.368 17.1571 83.2213 17.6085 83.3552 18.0205L85.6596 25.1127C85.959 26.034 84.9045 26.8001 84.1208 26.2307L78.0878 21.8475C77.7373 21.5929 77.2627 21.5929 76.9122 21.8475L70.8792 26.2307C70.0955 26.8001 69.041 26.034 69.3404 25.1127L71.6448 18.0205C71.7787 17.6085 71.632 17.1571 71.2815 16.9025L65.2485 12.5193C64.4648 11.9499 64.8676 10.7102 65.8363 10.7102H73.2935C73.7267 10.7102 74.1107 10.4313 74.2445 10.0193L76.5489 2.92705Z" />
+                                        <path
+                                            d="M107.549 2.92705C107.848 2.00574 109.152 2.00574 109.451 2.92705L111.755 10.0193C111.889 10.4313 112.273 10.7102 112.707 10.7102H120.164C121.132 10.7102 121.535 11.9499 120.751 12.5193L114.718 16.9025C114.368 17.1571 114.221 17.6085 114.355 18.0205L116.66 25.1127C116.959 26.034 115.904 26.8001 115.121 26.2307L109.088 21.8475C108.737 21.5929 108.263 21.5929 107.912 21.8475L101.879 26.2307C101.096 26.8001 100.041 26.034 100.34 25.1127L102.645 18.0205C102.779 17.6085 102.632 17.1571 102.282 16.9025L96.2485 12.5193C95.4648 11.9499 95.8676 10.7102 96.8363 10.7102H104.293C104.727 10.7102 105.111 10.4313 105.245 10.0193L107.549 2.92705Z" />
+                                        <path
+                                            d="M137.549 2.92705C137.848 2.00574 139.152 2.00574 139.451 2.92705L141.755 10.0193C141.889 10.4313 142.273 10.7102 142.707 10.7102H150.164C151.132 10.7102 151.535 11.9499 150.751 12.5193L144.718 16.9025C144.368 17.1571 144.221 17.6085 144.355 18.0205L146.66 25.1127C146.959 26.034 145.904 26.8001 145.121 26.2307L139.088 21.8475C138.737 21.5929 138.263 21.5929 137.912 21.8475L131.879 26.2307C131.096 26.8001 130.041 26.034 130.34 25.1127L132.645 18.0205C132.779 17.6085 132.632 17.1571 132.282 16.9025L126.249 12.5193C125.465 11.9499 125.868 10.7102 126.836 10.7102H134.293C134.727 10.7102 135.111 10.4313 135.245 10.0193L137.549 2.92705Z" />
+                                    </svg>
+                                </div>
+                                <p class="reviews__slider-item-descr">
+                                    Заказывали геологические и экологические изыскания для нашего строительства. Сделали
+                                    все хорошо. Порекомендую компанию при случае.
+                                </p>
+                                <span class="reviews__slider-item-name">
+                                    { Максим Игорехин }
+                                </span>
+                            </div>
+                        </div>
+                        <div class="reviews__slider-item swiper-slide">
+                            <div class="reviews__slider-item-inner">
+                                <div class="reviews__slider-item-quote">
+                                    <svg>
+                                        <use xlink:href='svg/dest/stack/spriteMono.svg#quote'></use>
+                                    </svg>
+                                </div>
+                                <div class="reviews__slider-item-rating">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="154" height="31" viewBox="0 0 154 31"
+                                        fill="none">
+                                        <path
+                                            d="M14.5489 2.92705C14.8483 2.00574 16.1517 2.00574 16.4511 2.92705L18.7555 10.0193C18.8893 10.4313 19.2733 10.7102 19.7065 10.7102H27.1637C28.1324 10.7102 28.5352 11.9499 27.7515 12.5193L21.7185 16.9025C21.368 17.1571 21.2213 17.6085 21.3552 18.0205L23.6596 25.1127C23.959 26.034 22.9045 26.8001 22.1208 26.2307L16.0878 21.8475C15.7373 21.5929 15.2627 21.5929 14.9122 21.8475L8.87923 26.2307C8.09551 26.8001 7.04103 26.034 7.34039 25.1127L9.64478 18.0205C9.77866 17.6085 9.632 17.1571 9.28151 16.9025L3.24852 12.5193C2.46481 11.9499 2.86758 10.7102 3.83631 10.7102H11.2935C11.7267 10.7102 12.1107 10.4313 12.2445 10.0193L14.5489 2.92705Z" />
+                                        <path
+                                            d="M45.5489 2.92705C45.8483 2.00574 47.1517 2.00574 47.4511 2.92705L49.7555 10.0193C49.8893 10.4313 50.2733 10.7102 50.7065 10.7102H58.1637C59.1324 10.7102 59.5352 11.9499 58.7515 12.5193L52.7185 16.9025C52.368 17.1571 52.2213 17.6085 52.3552 18.0205L54.6596 25.1127C54.959 26.034 53.9045 26.8001 53.1208 26.2307L47.0878 21.8475C46.7373 21.5929 46.2627 21.5929 45.9122 21.8475L39.8792 26.2307C39.0955 26.8001 38.041 26.034 38.3404 25.1127L40.6448 18.0205C40.7787 17.6085 40.632 17.1571 40.2815 16.9025L34.2485 12.5193C33.4648 11.9499 33.8676 10.7102 34.8363 10.7102H42.2935C42.7267 10.7102 43.1107 10.4313 43.2445 10.0193L45.5489 2.92705Z" />
+                                        <path
+                                            d="M76.5489 2.92705C76.8483 2.00574 78.1517 2.00574 78.4511 2.92705L80.7555 10.0193C80.8893 10.4313 81.2733 10.7102 81.7065 10.7102H89.1637C90.1324 10.7102 90.5352 11.9499 89.7515 12.5193L83.7185 16.9025C83.368 17.1571 83.2213 17.6085 83.3552 18.0205L85.6596 25.1127C85.959 26.034 84.9045 26.8001 84.1208 26.2307L78.0878 21.8475C77.7373 21.5929 77.2627 21.5929 76.9122 21.8475L70.8792 26.2307C70.0955 26.8001 69.041 26.034 69.3404 25.1127L71.6448 18.0205C71.7787 17.6085 71.632 17.1571 71.2815 16.9025L65.2485 12.5193C64.4648 11.9499 64.8676 10.7102 65.8363 10.7102H73.2935C73.7267 10.7102 74.1107 10.4313 74.2445 10.0193L76.5489 2.92705Z" />
+                                        <path
+                                            d="M107.549 2.92705C107.848 2.00574 109.152 2.00574 109.451 2.92705L111.755 10.0193C111.889 10.4313 112.273 10.7102 112.707 10.7102H120.164C121.132 10.7102 121.535 11.9499 120.751 12.5193L114.718 16.9025C114.368 17.1571 114.221 17.6085 114.355 18.0205L116.66 25.1127C116.959 26.034 115.904 26.8001 115.121 26.2307L109.088 21.8475C108.737 21.5929 108.263 21.5929 107.912 21.8475L101.879 26.2307C101.096 26.8001 100.041 26.034 100.34 25.1127L102.645 18.0205C102.779 17.6085 102.632 17.1571 102.282 16.9025L96.2485 12.5193C95.4648 11.9499 95.8676 10.7102 96.8363 10.7102H104.293C104.727 10.7102 105.111 10.4313 105.245 10.0193L107.549 2.92705Z" />
+                                        <path
+                                            d="M137.549 2.92705C137.848 2.00574 139.152 2.00574 139.451 2.92705L141.755 10.0193C141.889 10.4313 142.273 10.7102 142.707 10.7102H150.164C151.132 10.7102 151.535 11.9499 150.751 12.5193L144.718 16.9025C144.368 17.1571 144.221 17.6085 144.355 18.0205L146.66 25.1127C146.959 26.034 145.904 26.8001 145.121 26.2307L139.088 21.8475C138.737 21.5929 138.263 21.5929 137.912 21.8475L131.879 26.2307C131.096 26.8001 130.041 26.034 130.34 25.1127L132.645 18.0205C132.779 17.6085 132.632 17.1571 132.282 16.9025L126.249 12.5193C125.465 11.9499 125.868 10.7102 126.836 10.7102H134.293C134.727 10.7102 135.111 10.4313 135.245 10.0193L137.549 2.92705Z" />
+                                    </svg>
+                                </div>
+                                <p class="reviews__slider-item-descr">
+                                    Организация показала себя надёжным подрядчиком. Работы по изысканиям были выполнены
+                                    качественно. Будем рекомендовать.
+                                </p>
+                                <span class="reviews__slider-item-name">
+                                    { Максим Игорехин }
+                                </span>
+                            </div>
+                        </div>
+                        <div class="reviews__slider-item reviews__slider-item--alt swiper-slide">
+                            <div class="reviews__slider-item-inner">
+                                <div class="reviews__slider-item-quote">
+                                    <svg>
+                                        <use xlink:href='svg/dest/stack/spriteMono.svg#quote'></use>
+                                    </svg>
+                                </div>
+                                <div class="reviews__slider-item-rating">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="154" height="31" viewBox="0 0 154 31"
+                                        fill="none">
+                                        <path
+                                            d="M14.5489 2.92705C14.8483 2.00574 16.1517 2.00574 16.4511 2.92705L18.7555 10.0193C18.8893 10.4313 19.2733 10.7102 19.7065 10.7102H27.1637C28.1324 10.7102 28.5352 11.9499 27.7515 12.5193L21.7185 16.9025C21.368 17.1571 21.2213 17.6085 21.3552 18.0205L23.6596 25.1127C23.959 26.034 22.9045 26.8001 22.1208 26.2307L16.0878 21.8475C15.7373 21.5929 15.2627 21.5929 14.9122 21.8475L8.87923 26.2307C8.09551 26.8001 7.04103 26.034 7.34039 25.1127L9.64478 18.0205C9.77866 17.6085 9.632 17.1571 9.28151 16.9025L3.24852 12.5193C2.46481 11.9499 2.86758 10.7102 3.83631 10.7102H11.2935C11.7267 10.7102 12.1107 10.4313 12.2445 10.0193L14.5489 2.92705Z" />
+                                        <path
+                                            d="M45.5489 2.92705C45.8483 2.00574 47.1517 2.00574 47.4511 2.92705L49.7555 10.0193C49.8893 10.4313 50.2733 10.7102 50.7065 10.7102H58.1637C59.1324 10.7102 59.5352 11.9499 58.7515 12.5193L52.7185 16.9025C52.368 17.1571 52.2213 17.6085 52.3552 18.0205L54.6596 25.1127C54.959 26.034 53.9045 26.8001 53.1208 26.2307L47.0878 21.8475C46.7373 21.5929 46.2627 21.5929 45.9122 21.8475L39.8792 26.2307C39.0955 26.8001 38.041 26.034 38.3404 25.1127L40.6448 18.0205C40.7787 17.6085 40.632 17.1571 40.2815 16.9025L34.2485 12.5193C33.4648 11.9499 33.8676 10.7102 34.8363 10.7102H42.2935C42.7267 10.7102 43.1107 10.4313 43.2445 10.0193L45.5489 2.92705Z" />
+                                        <path
+                                            d="M76.5489 2.92705C76.8483 2.00574 78.1517 2.00574 78.4511 2.92705L80.7555 10.0193C80.8893 10.4313 81.2733 10.7102 81.7065 10.7102H89.1637C90.1324 10.7102 90.5352 11.9499 89.7515 12.5193L83.7185 16.9025C83.368 17.1571 83.2213 17.6085 83.3552 18.0205L85.6596 25.1127C85.959 26.034 84.9045 26.8001 84.1208 26.2307L78.0878 21.8475C77.7373 21.5929 77.2627 21.5929 76.9122 21.8475L70.8792 26.2307C70.0955 26.8001 69.041 26.034 69.3404 25.1127L71.6448 18.0205C71.7787 17.6085 71.632 17.1571 71.2815 16.9025L65.2485 12.5193C64.4648 11.9499 64.8676 10.7102 65.8363 10.7102H73.2935C73.7267 10.7102 74.1107 10.4313 74.2445 10.0193L76.5489 2.92705Z" />
+                                        <path
+                                            d="M107.549 2.92705C107.848 2.00574 109.152 2.00574 109.451 2.92705L111.755 10.0193C111.889 10.4313 112.273 10.7102 112.707 10.7102H120.164C121.132 10.7102 121.535 11.9499 120.751 12.5193L114.718 16.9025C114.368 17.1571 114.221 17.6085 114.355 18.0205L116.66 25.1127C116.959 26.034 115.904 26.8001 115.121 26.2307L109.088 21.8475C108.737 21.5929 108.263 21.5929 107.912 21.8475L101.879 26.2307C101.096 26.8001 100.041 26.034 100.34 25.1127L102.645 18.0205C102.779 17.6085 102.632 17.1571 102.282 16.9025L96.2485 12.5193C95.4648 11.9499 95.8676 10.7102 96.8363 10.7102H104.293C104.727 10.7102 105.111 10.4313 105.245 10.0193L107.549 2.92705Z" />
+                                        <path
+                                            d="M137.549 2.92705C137.848 2.00574 139.152 2.00574 139.451 2.92705L141.755 10.0193C141.889 10.4313 142.273 10.7102 142.707 10.7102H150.164C151.132 10.7102 151.535 11.9499 150.751 12.5193L144.718 16.9025C144.368 17.1571 144.221 17.6085 144.355 18.0205L146.66 25.1127C146.959 26.034 145.904 26.8001 145.121 26.2307L139.088 21.8475C138.737 21.5929 138.263 21.5929 137.912 21.8475L131.879 26.2307C131.096 26.8001 130.041 26.034 130.34 25.1127L132.645 18.0205C132.779 17.6085 132.632 17.1571 132.282 16.9025L126.249 12.5193C125.465 11.9499 125.868 10.7102 126.836 10.7102H134.293C134.727 10.7102 135.111 10.4313 135.245 10.0193L137.549 2.92705Z" />
+                                    </svg>
+                                </div>
+                                <p class="reviews__slider-item-descr">
+                                    Организация показала себя надёжным подрядчиком.
+                                </p>
+                                <span class="reviews__slider-item-name">
+                                    { Максим Игорехин }
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__slider-scrollbar slider__scrollbar swiper-scrollbar"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="call">
+        <div class="call__col call__col--left">
+            <div class="call__contacts">
+                <span class="call__contacts-title">
+                    У вас срочный заказ? Свяжитесь с нами
+                </span>
+                <a href="tel:+79998721504" class="call__contacts-item">
+                    <div class="call__contacts-item-icon">
+                        <svg>
+                            <use xlink:href='svg/dest/stack/spriteMono.svg#phone'></use>
+                        </svg>
+                    </div>
+                    +7 999 872-15-04
+                </a>
+                <a href="mailto:info@glavgeoexpertiza.ru" class="call__contacts-item">
+                    <div class="call__contacts-item-icon">
+                        <svg>
+                            <use xlink:href='svg/dest/stack/spriteMono.svg#mail'></use>
+                        </svg>
+                    </div>
+                    info@glavgeoexpertiza.ru
+                </a>
+            </div>
+        </div>
+
+        <div class="call__col call__col--right">
+            <h2 class="call__title">
+                Оставьте заявку на геологические изыскания
+            </h2>
+            <form action="#" class="call__form form">
+                <div class="call__form-inputs form__inputs">
+                    <input type="text" class="call__form-input form__input input" required name="name"
+                        placeholder="Введите имя">
+                    <input type="tel" class="call__form-input form__input input" required name="phobe"
+                        placeholder="Введите номер">
+                    <button class="form__offer-btn form__btn btn btn--red">
+                        Рассчитать
+                    </button>
+                    <div class="call__form-checkbox form__checkbox checkbox">
+                        <input type="checkbox" id="checkbox1" name="politics" required>
+                        <label for="checkbox1">
+                            <div class="call__checkbox-icon form__checkbox-icon checkbox__icon"></div>
+                            <span>
+                                Нажимая на кнопку, я соглашаюсь на обработку персональных данных в соответствии
+                                <a href="#">
+                                    с пользовательским соглашением.
+                                </a>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
 </main>
 </div>
 <footer class="footer">
-
+    <div class="container">
+        <div class="footer__row row">
+            <div class="footer__col footer__col--info">
+                <h3 class="footer__title">
+                    Информация
+                    о компании
+                </h3>
+                <div class="footer__info-bottom">
+                    <span class="footer__info-bottom-item">
+                        ООО «ГлавГеоЭкспертиза» © 2004–2023
+                    </span>
+                    <span class="footer__info-bottom-item">
+                        <a href="#">Обработка персональных данных</a> <a href="#">Публичная оферта</a>
+                    </span>
+                </div>
+            </div>
+            <div class="footer__col footer__col--menu">
+                <h3 class="footer__title">Меню сайта</h3>
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Преимущества</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Услуги</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Калькулятор</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">О компании</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Команда</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Фотогаллерея</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Вопрос-ответ</a>
+                    </li>
+                </ul>            
+            </div>
+            <div class="footer__col footer__col--contacts">
+                <h3 class="footer__title">
+                    Контактная информация
+                </h3>
+                <div class="footer__contacts">
+                    <a href="tel:+79998721504" class="footer__contacts-item">
+                        <div class="footer__contacts-item-icon">
+                            <svg>
+                                <use xlink:href='svg/dest/stack/spriteMono.svg#phone'></use>
+                            </svg>
+                        </div>
+                        +7 999 872-15-04
+                    </a>
+                    <a href="mailto:info@glavgeoexpertiza.ru" class="footer__contacts-item">
+                        <div class="footer__contacts-item-icon">
+                            <svg>
+                                <use xlink:href='svg/dest/stack/spriteMono.svg#mail'></use>
+                            </svg>
+                        </div>
+                        info@glavgeoexpertiza.ru
+                    </a>
+                    <div class="footer__contacts-item">
+                        <div class="footer__contacts-item-icon">
+                            <svg>
+                                <use xlink:href='svg/dest/stack/spriteMono.svg#watch'></use>
+                            </svg>
+                        </div>
+                        c 6.00 до 18.00 Понедельник-Пятница 
+                        <br/>
+                        c 8.00 до 18.00 Суббота-Воскресенье
+                    </div>
+                    <address class="footer__contacts-item">
+                        <div class="footer__contacts-item-icon footer__contacts-item-icon--home">
+                            <svg>
+                                <use xlink:href='svg/dest/stack/spriteMono.svg#home'></use>
+                            </svg>
+                        </div>
+                        Город <br/> ул. Центральная д. 5
+                    </address>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
 </div>
-
+<div class="modal-call modal">
+    <div class="modal-call__content modal__content">
+        <button class="modal__close">
+            <svg>
+                <use xlink:href='svg/dest/stack/spriteMono.svg#cross'></use>
+            </svg>
+        </button>
+        <div class="modal-call__row row">
+            <div class="modal-call__col modal-call__col--left">
+                <img class="img-fill" src="images/content/modal-img.webp" alt="">
+            </div>
+            <div class="modal-call__col modal-call__col--right">
+                <h2 class="modal__title">
+                    Рассчитаем стоимость работ
+                </h2>
+               
+                <form action="#" class="modal-call__form form">
+                    <div class="modal-call__form-inputs form__inputs">
+                        <input type="text" class="modal-call__form-input form__input input" required name="name"
+                            placeholder="Введите имя">
+                        <input type="tel" class="modal-call__form-input form__input input" required name="phobe"
+                            placeholder="Введите номер">
+                        <button class="form__modal-call-btn form__btn btn btn--red">
+                            Рассчитать
+                        </button>
+                        <div class="modal-call__form-checkbox form__checkbox checkbox">
+                            <input type="checkbox" id="checkbox1" name="politics" required>
+                            <label for="checkbox1">
+                                <div class="modal-call__checkbox-icon form__checkbox-icon checkbox__icon"></div>
+                                <span>
+                                    Нажимая на кнопку, я соглашаюсь на
+                                    <a href="#">
+                                        обработку персональных данных
+                                    </a>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal-thanks modal">
+    <div class="modal-call__content modal__content">
+        <button class="modal__close">
+            <svg>
+                <use xlink:href='svg/dest/stack/spriteMono.svg#cross'></use>
+            </svg>
+        </button>
+        <div class="modal-call__row row">
+            <div class="modal-call__col modal-call__col--left">
+                <img class="img-fill" src="images/content/modal-img.webp" alt="">
+            </div>
+            <div class="modal-call__col  modal-thanks__col--right modal-call__col--right">
+                <h2 class="modal__title">
+                    Спасибо! 
+                </h2>
+                <p class="modal-thanks__text">
+                    { Менеджер свяжется с вами в ближайшее время }
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mobile-menu">
+    <div class="mobile-menu__container"></div>
+</div>
 <script src="JS/bundle.js"></script>
 </body>
 
