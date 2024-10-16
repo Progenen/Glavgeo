@@ -15,12 +15,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
     main.style.paddingTop = header.clientHeight + "px";
 
-    if (window.innerWidth <= 1440) {
+    function openMenu () {
+        burger.classList.add("active");
+        menu.classList.add("active");
+        document.body.classList.add("lock");
+    }
 
+    function closeMenu () {
+        burger.classList.remove("active");
+        menu.classList.remove("active");
+        document.body.classList.remove("lock");
+    }
+
+
+    if (window.innerWidth <= 1440) {
         burger.addEventListener("click", () => {
-            burger.classList.toggle("active");
-            menu.classList.toggle("active");
-            document.body.classList.toggle("lock");
+            if (menu.classList.contains("active")) {
+                closeMenu();
+            } else {
+                openMenu();
+            }
         });
 
         menuContainer.append(headerMenu);
@@ -115,26 +129,28 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+    // modals
+
     const modalCall = document.querySelector(".modal-call");
     const modals = document.querySelectorAll(".modal");
     const modalThanks = document.querySelector(".modal-thanks");
     const modalCloses = document.querySelectorAll(".modal__close");
     const modalCallTrigger = document.querySelectorAll("[data-modal-trigger-call]");
 
-    function modalOpen(modal) {
+    function closeAllModals () {
+        modals.forEach(modal => {
+            modal.classList.remove("active");
+        })
     }
 
-    function modalClose(modal) {
-    }
-
-    modalCloses.forEach(el => {
-        el.addEventListener("click", () => {
-            modals.forEach(modal => {
-                modal.classList.remove("active");
-            })
+    modals.forEach(el => {
+        el.addEventListener("click", (e) => {
+            if (!e.target.closest(".modal__content") || e.target.closest(".modal__close")) {
+                closeAllModals();
+            } 
         })
     });
-    
+
     console.log(modalCallTrigger);
 
     modalCallTrigger.forEach(el => {
@@ -160,7 +176,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         return await response.text();
     };
-    
+
     forms.forEach(form => {
         form.addEventListener("submit", function (e) {
             e.preventDefault();
@@ -173,5 +189,38 @@ document.addEventListener('DOMContentLoaded', function () {
                 .catch((err) => console.error(err))
         });
     });
+    
+    const anchorLinks = document.querySelectorAll(".header__menu-link");
+    
+    anchorLinks.forEach(link => {
+        link.addEventListener('click', function (event) {
+            event.preventDefault();
+            
+            const targetId = link.getAttribute('href').substring(1);
+            console.log(targetId);
+            const targetElement = document.getElementById(targetId);
+            
+            if (targetElement) {
+                closeMenu();
+                window.scrollTo({
+                    top: targetElement.offsetTop - header.clientHeight, 
+                    behavior: 'smooth' 
+                });
+            }
+        });
+    });
+
+    window.addEventListener("scroll", (e) => {
+        anchorLinks.forEach(item => {
+            if (scrollY >= document.getElementById(item.getAttribute('href').substring(1)).offsetTop - header.getBoundingClientRect().height) {
+                anchorLinks.forEach(el => {
+                    el.classList.remove("active");
+                })
+                item.classList.add("active");
+            } else {
+                item.classList.remove("active");
+            }
+        });
+    })
 
 });

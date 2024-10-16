@@ -2,10 +2,12 @@
     padding: 12px 0 25px;
     position: fixed;
     width: 100%;
-    top: 0;
     left: 0;
     z-index: 120;
     background-color: #fff;
+    transition: .3s;
+    &.fixed {
+    }
     &__container {
         max-width: 1845px;
         padding: 0 15px;
@@ -57,11 +59,17 @@
     }
 
     &__menu-item {
+        &.active .header__menu-link {
+            color: var(--color-yellow);
+        }
     }
 
     &__menu-link {
         font-size: var(--text-size-lg);
         font-weight: 700;
+        &.active {
+            color: var(--color-yellow);
+        }
     }
 
     &__contact {

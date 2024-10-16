@@ -1,6 +1,6 @@
 @@include('./parts/header.html')
 <main>
-    <section class="offer" style="background-image: url('images/content/offer-bg.webp');"
+    <section id="offer" class="offer" style="background-image: url('images/content/offer-bg.webp');"
         data-md-bg="images/content/offer-bg-md.webp" data-sm-bg="images/content/offer-bg-sm.webp">
         <div class="container">
             <div class="offer__content">
@@ -39,7 +39,7 @@
             </div>
         </div>
     </section>
-    <section class="dominates">
+    <section id="dominates" class="dominates">
         <div class="container">
             <div class="dominates__items">
                 <div class="dominates__item">
@@ -80,7 +80,7 @@
             </div>
         </div>
     </section>
-    <section class="services">
+    <section id="services" class="services">
         <div class="container">
             <div class="services__title main-title">
                 <h2>
@@ -248,7 +248,19 @@
             </div>
         </div>
     </section>
-    <section class="about">
+    <section id="calc" class="calculator">
+        <div class="container">
+            <div class="calculator__title main-title row">
+                <h2>
+                    Калькулятор рассчета стоимости услуг
+                </h2>
+                <span>
+                    { Стоимость услуги зависит от объёма и вида работ }
+                </span>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
         <div class="container">
             <div class="about__row row">
                 <div class="about__col about__col--left">
@@ -282,7 +294,7 @@
             </div>
         </div>
     </section>
-    <section class="team">
+    <section id="team" class="team">
         <div class="container">
             <div class="team__top row main-title">
                 <div class="team__title ">
@@ -382,7 +394,7 @@
             </div>
         </div>
     </section>
-    <section class="gallery">
+    <section id="gallery" class="gallery">
         <div class="container">
             <div class="gallery__top main-title row">
                 <h2>
@@ -478,7 +490,7 @@
             </div>
         </div>
     </section>
-    <section class="questions">
+    <section id="questions" class="questions">
         <div class="container">
             <div class="questions__title main-title row">
                 <h2>
@@ -589,7 +601,7 @@
             </div>
         </div>
     </section>
-    <section class="reviews">
+    <section id="reviews" class="reviews">
         <div class="container">
             <div class="reviews__top main-title row">
                 <div class="reviews__title row">
@@ -775,7 +787,7 @@
             </div>
         </div>
     </section>
-    <section class="call">
+    <section id="call" class="call">
         <div class="call__col call__col--left">
             <div class="call__contacts">
                 <span class="call__contacts-title">
@@ -814,8 +826,8 @@
                         Рассчитать
                     </button>
                     <div class="call__form-checkbox form__checkbox checkbox">
-                        <input type="checkbox" id="checkbox1" name="politics" required>
-                        <label for="checkbox1">
+                        <input type="checkbox" id="checkbox2" name="politics" required>
+                        <label for="checkbox2">
                             <div class="call__checkbox-icon form__checkbox-icon checkbox__icon"></div>
                             <span>
                                 Нажимая на кнопку, я соглашаюсь на обработку персональных данных в соответствии
